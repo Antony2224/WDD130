@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portal Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Home Page</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="wwr.html">WWR</a>
+        <a href="ICE.html">ICE Projects</a>
+        <a href="Aboutme.html">About Me</a>
+    </nav>
+    <main>
+        <h2>Header</h2>
+
+        <p>Lorem Ipsum</p>
+        <div class="project-layout">
+
+            <div class="card1">
+                <ul>
+                    <li>Completed Projects
+                        <ul>
+                            <li>Project 1</li>
+                            <li>project 2</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="image">
+                <img src="Images/Gemini_Generated_Image_bafvt3bafvt3bafv.jpg" alt="Lion Creative" width="250">
+            </div>
+
+            <div class="project-ideas">
+                <h2>Project Ideas</h2>
+
+                <form id="projectForm">
+                    <label for="projectIdea">New Project Idea:</label>
+                    <input type="text" id="projectIdea" name="projectIdea" placeholder="Enter a project idea" required>
+
+                    <button type="submit">Add Idea</button>
+                </form>
+
+                <h3>Project Idea List</h3>
+
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Project Idea</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="projectList">
+                        <tr>
+                            <td>Design a new website</td>
+                            <td>
+                                <button type="button" class="deleteButton">
+                                    Delete
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Create a logo</td>
+                            <td>
+                                <button type="button" class="deleteButton">
+                                    Delete
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Lorem Ipsum</p>
+    </footer>
+
+</body>
+
+</html>
